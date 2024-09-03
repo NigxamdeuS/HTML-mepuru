@@ -3,7 +3,7 @@
     display: none !important; /* 強制的に非表示 */
   }
   
-  @media screen and (max-width: 865px) {
+  @media screen and (max-width: 860px) {
     .openbtn9, #g-nav {
       display: block !important; /* 強制的に表示 */
     }
@@ -14,7 +14,7 @@
     }
   }
   
-  @media screen and (min-width: 857px) {
+  @media screen and (min-width: 861px) {
     #desktop-nav {
       display: block !important; /* 強制的に表示 */
     }

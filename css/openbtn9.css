@@ -8,7 +8,7 @@
     position: relative; /* 画面全体に対して固定 */
     background:#2BA99B;
     cursor: pointer;
-    top: 25px;
+    top: 30px;
     right: 30px; /* 右側に固定 */
     width: 50px;
     height: 50px;
@@ -18,6 +18,11 @@
     z-index: 9999; /*ボタンを最前面に*/
 }
 
+@media screen and (max-width: 550px) {
+    .openbtn9 {
+        right: 20px;
+    }
+}
 	
 /*ボタン内側*/
 
