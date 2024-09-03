@@ -96,7 +96,6 @@ header {
   padding: 10px 20px;
   background-color: #41ce00;
   position: fixed;
-  justify-content: space-between;
   width: 100%;
   z-index: 9998;
 }
