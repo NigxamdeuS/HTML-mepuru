@@ -1,19 +1,23 @@
-/* デフォルトはPC表示をオン、スマホ表示をオフ */
-#desktop-nav {
-    display: block; /* PCのメニューを表示 */
-}
-
-.openbtn9, #g-nav, .circle-bg {
-    display: none; /* スマホのメニューを非表示 */
-}
-
-/* スマホ表示をオンにし、PC表示をオフにするメディアクエリ */
-@media screen and (max-width: 1819px) {
+/* Hide hamburger menu on desktop and show on mobile */
+.openbtn9, #g-nav {
+    display: none; /* Hide by default */
+  }
+  
+  @media screen and (max-width: 768px) {
+    .openbtn9, #g-nav {
+      display: block; /* Show hamburger menu on screens smaller than 768px */
+    }
+  
+    /* Hide desktop navigation on mobile */
     #desktop-nav {
-        display: none; /* PCのメニューを非表示 */
+      display: none;
     }
-
-    .openbtn9, #g-nav, .circle-bg {
-        display: block; /* スマホのメニューを表示 */
+  }
+  
+  /* Show desktop navigation on larger screens */
+  @media screen and (min-width: 769px) {
+    #desktop-nav {
+      display: block;
     }
-}
+  }
+  
