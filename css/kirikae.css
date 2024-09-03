@@ -1,0 +1,19 @@
+/* デフォルトはPC表示をオン、スマホ表示をオフ */
+#desktop-nav {
+    display: block; /* PCのメニューを表示 */
+}
+
+.openbtn9, #g-nav, .circle-bg {
+    display: none; /* スマホのメニューを非表示 */
+}
+
+/* スマホ表示をオンにし、PC表示をオフにするメディアクエリ */
+@media screen and (max-width: 1819px) {
+    #desktop-nav {
+        display: none; /* PCのメニューを非表示 */
+    }
+
+    .openbtn9, #g-nav, .circle-bg {
+        display: block; /* スマホのメニューを表示 */
+    }
+}
