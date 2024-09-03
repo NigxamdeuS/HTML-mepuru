@@ -1,23 +1,22 @@
-/* Hide hamburger menu on desktop and show on mobile */
+/* 強制的にハンバーガーメニューを非表示 */
 .openbtn9, #g-nav {
-    display: none; /* Hide by default */
+    display: none !important; /* 強制的に非表示 */
   }
   
   @media screen and (max-width: 768px) {
     .openbtn9, #g-nav {
-      display: block; /* Show hamburger menu on screens smaller than 768px */
+      display: block !important; /* 強制的に表示 */
     }
   
-    /* Hide desktop navigation on mobile */
+    /* 強制的にデスクトップナビゲーションを非表示 */
     #desktop-nav {
-      display: none;
+      display: none !important;
     }
   }
   
-  /* Show desktop navigation on larger screens */
   @media screen and (min-width: 769px) {
     #desktop-nav {
-      display: block;
+      display: block !important; /* 強制的に表示 */
     }
   }
   
