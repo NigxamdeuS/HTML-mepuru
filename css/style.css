@@ -127,13 +127,13 @@ h4{
   color: #fff;
 }
 
-.menber{
+.member{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
 }
 
-.menber2{
+.member2{
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   grid-template-rows: repeat(1, 1fr);
